@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main2Activity">
+
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome!!! Nice Job."
+        android:textSize="50dp"
+        android:textColor="#6F6f6f"
+
+        />
+
+    <ImageButton
+        android:id="@+id/imgbtn1"
+        android:contextClickable="true"
+        android:layout_width="match_parent"
+        android:src="@drawable/md1"
+        android:scaleType="center"
+        android:layout_height="100dp"
+        android:layout_below="@id/text1"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="205dp" />
+</RelativeLayout>
